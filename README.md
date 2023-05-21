@@ -14,3 +14,6 @@ MIT6.824学习记录
   - [ ] Part B: Sharded Key/Value Server
 
 
+TODO:
+- [ ] Lab2B优化：加速日志回溯
+- [ ] Lab2优化：锁 
