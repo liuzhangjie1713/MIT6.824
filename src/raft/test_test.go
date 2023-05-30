@@ -726,7 +726,7 @@ func TestPersist22C(t *testing.T) {
 	cfg.begin("Test (2C): more persistence")
 
 	index := 1
-	for iters := 0; iters < 5; iters++ {
+	for iters := 0; iters < 10; iters++ {
 		cfg.one(10+index, servers, true)
 		index++
 

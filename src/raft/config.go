@@ -495,6 +495,8 @@ func (cfg *config) nCommitted(index int) (int, interface{}) {
 
 		cfg.mu.Lock()
 		cmd1, ok := cfg.logs[i][index]
+		//fmt.Printf("nCommitted(%v) index=%v cmd1=%v ok=%v\n", i, index, cmd1, ok)
+
 		cfg.mu.Unlock()
 
 		if ok {
@@ -570,6 +572,8 @@ func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 				index1, _, ok := rf.Start(cmd)
 				if ok {
 					index = index1
+					//打印日志
+					//fmt.Printf("one(%v) index=%v\n", cmd, index)
 					break
 				}
 			}
