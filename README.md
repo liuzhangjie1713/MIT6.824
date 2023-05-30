@@ -4,7 +4,7 @@ MIT6.824学习记录
 - [x] Lab2 [Raft](./src/raft)
   - [x] Part 2A: leader election 
   - [x] Part 2B: log
-  - [ ] Part 2C: persistence
+  - [x] Part 2C: persistence
   - [ ] Part 2D: log compaction
 - [ ] Lab3 Fault-tolerant Key/Value Service
   - [ ] Part A: Key/value service without snapshots 
