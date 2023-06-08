@@ -4,7 +4,7 @@ MIT6.824学习记录
 - [x] Lab2 [Raft](./src/raft)
   - [x] Part 2A: leader election 
   - [x] Part 2B: log
-  - [ ] Part 2C: persistence
+  - [x] Part 2C: persistence
   - [ ] Part 2D: log compaction
 - [ ] Lab3 Fault-tolerant Key/Value Service
   - [ ] Part A: Key/value service without snapshots 
@@ -15,5 +15,6 @@ MIT6.824学习记录
 
 
 TODO:
-- [ ] Lab2B优化：加速日志回溯
-- [ ] Lab2优化：锁 
+- [x] Lab2B优化：加速日志回溯
+- [x] Lab2优化：锁,go test -race 通过 
+- [ ] Lab2C稳定性优化：目前200次测试, 两次报错：one failed to reach agreement
