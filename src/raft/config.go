@@ -572,8 +572,6 @@ func (cfg *config) one(cmd interface{}, expectedServers int, retry bool) int {
 				index1, _, ok := rf.Start(cmd)
 				if ok {
 					index = index1
-					//打印日志
-					//fmt.Printf("one(%v) index=%v\n", cmd, index)
 					break
 				}
 			}
