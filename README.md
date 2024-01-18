@@ -17,4 +17,4 @@ MIT6.824学习记录
 TODO:
 - [x] Lab2B优化：加速日志回溯
 - [x] Lab2优化：锁,go test -race 通过 
-- [ ] Lab2C稳定性优化：目前200次测试, 两次报错：one failed to reach agreement
+- [x] Lab2C稳定性优化：目前200次测试, 两次报错：one failed to reach agreement
